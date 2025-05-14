@@ -1,0 +1,6 @@
+nome=input("nome do paciente: ")
+p1=float(input('peso do paciente: ' ))
+a1=float(input("altura do paciente: "))
+imc= p1/(a1*a1)
+r1=round(imc,2)
+print('paciente:',nome,"imc:",r1)
